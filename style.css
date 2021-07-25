@@ -1,0 +1,183 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+main {
+  background-color: beige;
+  width: 50%;
+  padding: 0px 20px;
+}
+.headers ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.headers ul > li {
+  background-color: rgb(101, 101, 206);
+  color: white;
+  height: 25px;
+  padding: 10px;
+  flex: 1;
+  margin: 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+section.title div:first-child {
+  display: flex;
+}
+section.title div:first-child div {
+  padding: 10px;
+}
+section.title div:first-child .idea2 {
+  border-left: 1px solid black;
+}
+section.title div {
+  padding-bottom: 25px;
+  height: 30px;
+}
+section.title div:nth-child(2) p {
+  margin: 0;
+}
+.idea1 {
+  font-weight: bold;
+  font-family: courier;
+  font-size: 1.5rem;
+}
+.marketing {
+  background-image: url(/idea2.png);
+  background-size: 100% 100%;
+  height: 170px;
+  position: relative;
+}
+.title div:nth-child(2) {
+  width: 100%;
+  text-align: right;
+}
+.marketing .image1 {
+  background-color: rgba(80, 80, 173, 0.9);
+  color: white;
+  max-width: 200px;
+  max-height: 180px;
+}
+.marketing .image1 {
+  overflow: hidden;
+  font-size: 13px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.marketing .image3 {
+  font-size: 30px;
+  background-color: aqua;
+  width: fit-content;
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+}
+.marketing .image3 h6 {
+  margin: 0px;
+}
+.marketing .image1 h3 {
+  border-bottom: 1px dotted black;
+  padding-bottom: 5px;
+}
+.section1 {
+  display: flex;
+}
+
+.item {
+  background-color: grey;
+  padding: 1rem;
+  margin: 1rem;
+}
+.section1 .item p:first-child {
+  margin: 10px;
+  border-bottom: 2px dotted black;
+}
+.independent {
+  display: flex;
+  justify-content: flex-end;
+}
+.section1 .item .size {
+  border: 2px solid white;
+  height: 30px;
+  background-color: rgb(58, 54, 54);
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+.section2 .idea3 {
+  flex: 3;
+  display: flex;
+
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+}
+.section2 .useful {
+  flex: 1;
+}
+.section2 {
+  display: flex;
+}
+.section2 .idea3 div {
+  border: 2px solid white;
+  background-color: rgb(58, 54, 54);
+  color: white;
+  text-align: center;
+  height: 50px;
+  margin: auto;
+  padding: 20px;
+  margin: 20px;
+}
+.section2 .idea3 .independent {
+  padding-right: 20px;
+}
+.footers ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(101, 101, 206);
+  margin: auto;
+}
+.footers ul > li {
+  margin: 0px;
+}
+.useful {
+  background-color: rgb(197, 197, 197);
+}
+.useful ul > li {
+  list-style: none;
+  border-bottom: 2px dotted black;
+}
+.useful h3 {
+  border-bottom: 2px dotted black;
+}
+.useful ul {
+  padding: 0px;
+}
+.boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.box {
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(77, 77, 77);
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+}
